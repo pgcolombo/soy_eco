@@ -1,0 +1,55 @@
+/*Normalización*/
+body{
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+/*Pantallas medianas y pequeñas*/
+@media(max-width:768px){
+    .container-fluid li, .container-fluid p{
+        font-size: 0.7rem;
+    }
+}
+
+/*Pie de página*/
+footer{
+    background: #1b2a4e;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer p{
+    color: #f3f3f3;
+    text-align: center;
+}
+
+#iconos i{
+    font-size: 26px;
+    padding: 0 8px;
+    color: #f3f3f3;
+}
+
+/*Contacto*/
+form{
+    /*margin-top: 140px;*/
+    margin: 0 0 10px 0;
+    width: 500px;
+}
+
+form textarea{
+    resize: none;
+}
+
+/*Cuerpo*/
+.row ul, .row p{
+    text-align: left !important;    /*Uso !important para pisar bootstrap*/
+}
